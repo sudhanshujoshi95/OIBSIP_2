@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(157, 151, 151);
+    width: 300px;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 10px;
+    margin-top: 5vw;
+}
+
+.sidebar nav li{
+    font-size: 25px;
+    list-style: none;
+    padding: 30px 0;
+    margin-left: 30px;  
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sidebar nav li a:hover{
+    color: yellowgreen;
+}
+
+.main{
+    background-color: whitesmoke;
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: whitesmoke;
+    height: 60vh;
+    width: 70vw;
+    margin: 160px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 55px;
+    font-weight: lighter;
+    font-family: 'Dosis', sans-serif;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.aboutme{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.buttons button{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: 34px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+    width: 430px;
+    height: 50vh;
+    border-radius: 1000px;   
+}
+
+.contactform{
+    font-family:'Dosis', sans-serif;
+    margin-left: 10vw;
+    padding-top: 50px;
+}
+
+.contactform h1{
+    font-weight: bold;
+    margin-left: 5vw;
+}
+
+form{
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.contactform div{
+    padding: 10px 0;
+}
+
+.contactform form div input{
+    border-radius: 10px;
+    margin: 6px 0;
+    padding: 5px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: rgb(22, 115, 159);
+}
+
+form button{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
